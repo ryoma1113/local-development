@@ -44,7 +44,7 @@ log-db:
 log-db-watch:
 	docker compose logs --follow db
 web:
-	docker compose exec web bash
+	docker compose exec web sh
 app:
 	docker compose exec app bash
 migrate:
